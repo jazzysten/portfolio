@@ -1,0 +1,379 @@
+/*____*/
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+html, 
+body{
+  height: 100%;
+  line-height: 1;
+  background: rgb(249, 249, 249);
+  font-size: 20px;
+  font-weight: 400;
+  font-family: DotGothic16;
+  letter-spacing: 4px;
+  -webkit-animation: move linear 100ms;
+          animation: move linear 100ms;  
+}
+
+@-webkit-keyframes move {
+  0% {
+    text-shadow:
+      4px -4px 0 rgb(0, 0, 0), 
+      3px -3px 0 rgb(0, 0, 0), 
+      2px -2px 0 rgb(0, 0, 0), 
+      1px -1px 0 rgb(0, 0, 0),
+      -4px 4px 0 rgb(19, 29, 177), 
+      -3px 3px 0 rgb(19, 29, 177), 
+      -2px 2px 0 rgb(19, 29, 177), 
+      -1px 1px 0 rgb(19, 29, 177)
+    ;
+  }
+  25% {    
+    text-shadow:      
+      -4px -4px 0 rgb(19, 29, 177), 
+      -3px -3px 0 rgb(19, 29, 177), 
+      -2px -2px 0 rgb(19, 29, 177), 
+      -1px -1px 0 rgb(19, 29, 177),
+      4px 4px 0 rgb(0, 0, 0), 
+      3px 3px 0 rgb(0, 0, 0), 
+      2px 2px 0 rgb(0, 0, 0), 
+      1px 1px 0 rgb(0, 0, 0)      
+    ;
+  }
+  50% {
+    text-shadow:
+      -4px 4px 0 rgb(0, 0, 0), 
+      -3px 3px 0 rgb(0, 0, 0), 
+      -2px 2px 0 rgb(0, 0, 0), 
+      -1px 1px 0 rgb(0, 0, 0),
+      4px -4px 0 rgb(19, 29, 177), 
+      3px -3px 0 rgb(19, 29, 177), 
+      2px -2px 0 rgb(19, 29, 177), 
+      1px -1px 0 rgb(19, 29, 177)
+    ;
+  }
+  75% {
+    text-shadow:
+      4px 4px 0 rgb(19, 29, 177), 
+      3px 3px 0 rgb(19, 29, 177), 
+      2px 2px 0 rgb(19, 29, 177), 
+      1px 1px 0 rgb(19, 29, 177),
+      -4px -4px 0 rgb(0, 0, 0), 
+      -3px -3px 0 rgb(0, 0, 0), 
+      -2px -2px 0 rgb(0, 0, 0), 
+      -1px -1px 0 rgb(0, 0, 0)      
+    ;
+  }
+  100% {
+    text-shadow:
+      4px -4px 0 rgb(0, 0, 0), 
+      3px -3px 0 rgb(0, 0, 0), 
+      2px -2px 0 rgb(0, 0, 0), 
+      1px -1px 0 rgb(0, 0, 0),
+      -4px 4px 0 rgb(19, 29, 177), 
+      -3px 3px 0 rgb(19, 29, 177), 
+      -2px 2px 0 rgb(19, 29, 177), 
+      -1px 1px 0 rgb(19, 29, 177)
+    ;
+  } 
+}
+
+@keyframes move {
+  0% {
+    text-shadow:
+      4px -4px 0 rgb(0, 0, 0), 
+      3px -3px 0 rgb(0, 0, 0), 
+      2px -2px 0 rgb(0, 0, 0), 
+      1px -1px 0 rgb(0, 0, 0),
+      -4px 4px 0 rgb(19, 29, 177), 
+      -3px 3px 0 rgb(19, 29, 177), 
+      -2px 2px 0 rgb(19, 29, 177), 
+      -1px 1px 0 rgb(19, 29, 177)
+    ;
+  }
+  25% {    
+    text-shadow:      
+      -4px -4px 0 rgb(19, 29, 177), 
+      -3px -3px 0 rgb(19, 29, 177), 
+      -2px -2px 0 rgb(19, 29, 177), 
+      -1px -1px 0 rgb(19, 29, 177),
+      4px 4px 0 rgb(0, 0, 0), 
+      3px 3px 0 rgb(0, 0, 0), 
+      2px 2px 0 rgb(0, 0, 0), 
+      1px 1px 0 rgb(0, 0, 0)      
+    ;
+  }
+  50% {
+    text-shadow:
+      -4px 4px 0 rgb(0, 0, 0), 
+      -3px 3px 0 rgb(0, 0, 0), 
+      -2px 2px 0 rgb(0, 0, 0), 
+      -1px 1px 0 rgb(0, 0, 0),
+      4px -4px 0 rgb(19, 29, 177), 
+      3px -3px 0 rgb(19, 29, 177), 
+      2px -2px 0 rgb(19, 29, 177), 
+      1px -1px 0 rgb(19, 29, 177)
+    ;
+  }
+  75% {
+    text-shadow:
+      4px 4px 0 rgb(19, 29, 177), 
+      3px 3px 0 rgb(19, 29, 177), 
+      2px 2px 0 rgb(19, 29, 177), 
+      1px 1px 0 rgb(19, 29, 177),
+      -4px -4px 0 rgb(0, 0, 0), 
+      -3px -3px 0 rgb(0, 0, 0), 
+      -2px -2px 0 rgb(0, 0, 0), 
+      -1px -1px 0 rgb(0, 0, 0)      
+    ;
+  }
+  100% {
+    text-shadow:
+      4px -4px 0 rgb(0, 0, 0), 
+      3px -3px 0 rgb(0, 0, 0), 
+      2px -2px 0 rgb(0, 0, 0), 
+      1px -1px 0 rgb(0, 0, 0),
+      -4px 4px 0 rgb(19, 29, 177), 
+      -3px 3px 0 rgb(19, 29, 177), 
+      -2px 2px 0 rgb(19, 29, 177), 
+      -1px 1px 0 rgb(19, 29, 177)
+    ;
+  } 
+}
+
+.header {
+   font-size: 20px;
+   display: block; 
+}
+
+.header__logo {
+   color: #737373;
+   font-size: 35px;
+   position: absolute;
+   margin: 20px 0px 0px 20px;
+   letter-spacing: 16px;
+}
+
+@media (max-width: 767px) {
+   .marquee {
+      max-width: 250px;
+   }
+}
+
+.menu {
+   text-align: right;
+   padding: 20px 20px 0px 0px;
+   letter-spacing: 5px;
+}
+
+.menu__item {
+   margin-top: 6px;
+}
+.menu__link {
+   color: #737373;
+
+}
+
+@media (max-width: 767px) {
+   .menu__list {
+      margin: 60px 0px 0px 20px;
+      text-align: left;
+      font-size: 15px;
+   }
+}
+
+@media (max-width: 767px) {
+   .header__logo {
+      font-size: 25px;
+      margin-left: 18px;
+   }
+}
+
+
+.about{
+   margin-top: 15px;
+}
+
+
+.menu__link:hover{
+   color: rgb(19, 29, 177);
+   -webkit-transition: 0.5s;
+   -o-transition: 0.5s;
+   transition: 0.5s;
+}
+
+.header__logo:hover{
+   color: rgb(19, 29, 177);
+   -webkit-transition: 0.5s;
+   -o-transition: 0.5s;
+   transition: 0.5s;
+}
+
+
+/* ---------------------------------------------------------------------------- */
+
+   .main-block{
+   margin-top: -36px;
+   text-align: center;
+   color: #131db1;
+   font-size: 15px;
+   max-width: 60%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+@media (max-width: 767px) {
+   .main-block {      
+      margin-top: 50px;
+      max-width: 82%;
+      font-size: 13px;
+   }
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.aboutcontact{
+   color: #737373;
+   font-size: 20px;
+   margin-top: 50px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   letter-spacing: 16px;
+}
+
+.aboutcontact:hover{
+   -webkit-animation: move linear 500ms;
+           animation: move linear 500ms;
+}
+
+@media (max-width: 767px) {
+   .aboutcontact {      
+      font-size: 15px;
+      
+   }
+}
+
+@media (max-width: 374px) {
+   .aboutcontact {      
+      font-size: 10px;
+      
+   }
+}
+
+h1{
+   font-size: 25px;
+   text-align: left;
+   display: inline;
+   
+   
+}
+
+@media (max-width: 767px) {
+   h1 {      
+      font-size: 20px;
+      
+   }
+}
+
+@media (max-width: 374px) {
+   h1 {      
+      font-size: 15px;
+      
+   }
+}
+
+.aboutcontact__about{
+   letter-spacing: 2px;
+   line-height: 1.5;
+   margin: 20px 0px 40px 0px;
+   
+}
+
+
+h2{
+   font-size: 25px;
+   display: inline;
+   text-align: right;
+   float: right;
+   margin-right: -12px;
+   
+}
+
+@media (max-width: 767px) {
+   h2 {      
+      font-size: 20px;
+      
+   }
+}
+
+@media (max-width: 374px) {
+   h2 {      
+      font-size: 15px;
+      
+   }
+}
+
+.aboutcontact__contact{
+   letter-spacing: 2px;
+   line-height: 1.5;
+   text-align: right;
+}
+
+
+.contact__item {
+   margin-top: 6px;
+   letter-spacing: 5px;
+}
+
+
+.aboutcontact__contact{
+   font-size: 20px;
+   margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+   .aboutcontact__contact {      
+      font-size: 15px;
+   }
+}
+
+@media (max-width: 374px) {
+   .aboutcontact__contact {      
+      font-size: 10px;
+      
+   }
+}
+
+.active-blue {
+   color: rgb(19, 29, 177);
+}
