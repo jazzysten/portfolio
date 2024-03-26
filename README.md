@@ -1,2 +1,2 @@
 # portfolio
-my photography site
+my photography site (minimal design + js)
